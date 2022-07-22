@@ -196,6 +196,17 @@ header button{
     header button{
         display: inline-block;
     }
+    .clear-rate{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+     .classless{
+        width: 80%;
+        overflow-x: auto;
+    }
+    .classless table{
+        min-width: 700px;
+    }
 
 }
 @media only screen and ( max-width: 500px) {
