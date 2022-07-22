@@ -182,6 +182,12 @@ header button{
     display: none;
     
 }
+@media only screen and ( max-width: 800px) {
+    .clear{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 @media only screen and (max-width: 750px) {
     nav{
         display: none;
@@ -191,4 +197,10 @@ header button{
         display: inline-block;
     }
 
+}
+@media only screen and ( max-width: 500px) {
+    .clear{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
